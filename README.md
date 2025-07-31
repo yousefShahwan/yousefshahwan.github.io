@@ -1,28 +1,47 @@
-# yousefshahwan.github.io
-🎓  Smart Systems Engineer with a strong passion for IoT, embedded systems, control engineering, and power management.
+Project Title: Home Automation System Using Telegram and ESP32
 
-I am one of the winners of the Palestine IoT & AI Challenge, and I proudly represented Palestine at GITEX Dubai 2023. My focus lies in developing intelligent solutions that merge modern technologies like ESP32, MATLAB, and C++ with real-world challenges in energy, automation, and sustainability.
+Overview
+This project showcases a real-time home automation system built using the ESP32 microcontroller and integrated with the Telegram messaging app. The system allows users to control home appliances remotely via simple Telegram commands, offering a user-friendly and cost-effective solution for smart living.
 
----
+Key Features
 
-💼 Key Projects:
- 🔌 Smart Power Management System  
-  A multi-source power optimization solution with real-time control and feedback using IoT and control logic.
+📱 Telegram-based user interface
 
- 🧠 Home Automation via Telegram Bot  
-  A secure and scalable home control system using ESP32 and relay modules, controlled via Telegram messages.
- 🛠️ Technical Skills:
-* IoT Systems Design (ESP32, MQTT, CAN Bus)
-* Embedded Systems (Arduino IDE, C/C++)
-* Control Systems Design & Simulation (MATLAB/Simulink)
-* Power Electronics and Smart Grid Integration
-* PCB Design (Proteus, Altium)
+🌐 Real-time control via Wi-Fi
 
- 📢 Highlights & Achievements:
-* 🇵🇸 Represented Palestine at *GITEX 2023 - Dubai*
-* 🥇 Winner of the *"Made in Palestine" IoT & AI Challenge*
-* 🏆 Best Project Award – Technology Day IX – Islamic University
-* 🗣️ Speaker and Trainer in multiple IoT, control, and embedded systems workshops
+🔌 Control of lights, fans, and sockets
+
+⚡️ Built on ESP32 microcontroller
+
+🛡️ Secure and responsive command handling
+
+Technologies Used
+
+ESP32 Microcontroller
+
+Arduino IDE
+
+Telegram Bot API
+
+Relay Modules
+
+Wi-Fi Network
+
+How It Works
+Once connected to a local Wi-Fi network, the ESP32 listens for messages sent to a custom Telegram bot. Each command triggers a specific GPIO pin, which then activates relays to control household devices. The system provides instant feedback, enhancing user confidence and usability.
+
+Applications
+
+Home lighting and appliance control
+
+Remote power management
+
+Energy saving and scheduling
+
+Smart security features
+
+Impact
+This project demonstrates how accessible technologies can be combined to create powerful automation systems. It’s especially suitable for students, hobbyists, and engineers interested in IoT and smart home solutions.
 
  📫 Contact:
 * Email: yshahwan2002@gmail.com  
